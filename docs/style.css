@@ -4,7 +4,7 @@
 }
 
 header{
-    background-image: url('./assets/foto-header.jpg');
+    background-image: url('assets/foto-header.jpg');
     background-size: cover;
     height: 600px;
 }

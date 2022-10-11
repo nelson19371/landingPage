@@ -1,0 +1,115 @@
+.container {
+    max-width: 1800px;
+    
+}
+
+header{
+    background-image: url('/assets/foto-header.jpg');
+    background-size: cover;
+    height: 600px;
+}
+
+.btn{
+    background-color: rgb(251,139,37);
+    color: white;
+    border-radius: 26px;
+    padding: 40px,35px;
+    width: 190px;
+    height: 55%;
+    opacity: 90%;
+    margin-bottom: 70px;
+    height: auto;
+     
+     
+    
+}
+
+.contenedor {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+    filter: drop-shadow(0 2px 5px rgba(0, 0, 0, 0.7));
+  }
+  .responsive {
+    width: 40%;
+    height: auto;
+  }
+  
+  .logo-menu{height: 60px;}
+
+
+  
+  #row-quienesSomos h1{
+
+    margin-top: 120px;
+    margin-bottom: 40px;
+  }
+
+  .col{
+    background-color:rgb(240,240,240,255);
+    margin: 10px;
+   
+  }
+
+  .col img{
+    width: 200px;
+    padding: 20px;
+  }
+
+  #row-nosotros{
+    background-image: url('/assets/foto-sobre-nosotros.png');
+    padding: 60px,30px;
+  
+    background-size: cover;
+    height: 600px;
+  }
+
+ 
+   .row p{ 
+   
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    color: white;
+    text-align: justify;
+    
+   
+    
+   
+  }
+
+  .row h1{ 
+    filter: brightness(200%) !important;
+    font-family: 'Poppins', sans-serif;
+    font-size: 50px;
+    color: white;
+   
+    margin-top: 40px;
+    
+   
+  }
+  #row-quienesSomos h1{
+    color: rgb(56, 56, 56);
+  }
+
+
+  #row-misionVision button{
+    margin-right: 30px;
+  }
+
+  #row-misionVision p{
+    color: black;
+    padding: 19px;
+    margin-left: 100px;
+    font-size: 20px;
+    
+  }
+#panel{
+  width: 800px;
+  height: 800px;
+}
+
+.misiondiv {
+  margin-left: 10px;
+}

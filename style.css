@@ -1,3 +1,9 @@
+*{
+  padding: 0px;
+  margin: 0px;
+}
+
+
 .container {
     max-width: 1800px;
     
@@ -32,6 +38,10 @@ header{
     margin-bottom: 40px;
     filter: drop-shadow(0 2px 5px rgba(0, 0, 0, 0.7));
   }
+
+
+
+
   .responsive {
     width: 40%;
     height: auto;
@@ -61,7 +71,8 @@ header{
   #row-nosotros{
     background-image: url('/assets/foto-sobre-nosotros.png');
     padding: 60px,30px;
-  
+    display: flex;
+    flex-wrap: wrap;
     background-size: cover;
     height: 600px;
   }
@@ -85,12 +96,24 @@ header{
     font-size: 50px;
     color: white;
    
-    margin-top: 40px;
+    margin-top: 50px;
     
    
   }
+
+  #row-quienesSomos{
+    background-size: cover;
+  }
+
+  #row-nosotros{
+    background-size: cover;
+
+  }
+
+
   #row-quienesSomos h1{
     color: rgb(56, 56, 56);
+
   }
 
 
@@ -113,3 +136,225 @@ header{
 .misiondiv {
   margin-left: 10px;
 }
+
+
+#row-misionVision{
+   background-size: cover;
+  }
+
+
+  .image-content{
+    row-gap: 5px;
+  }
+
+  .card-image{
+    position: relative;
+    height: 300px; 
+    width:300px ;
+    /* editar aqui */
+    /* border-radius: 50%;   */
+
+
+  }
+
+
+  .card-image .card-img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    
+
+
+  }
+
+  .slide-container{
+    max-width: 1120px;
+    width: 100%;
+   
+    padding: 40px 0;
+  }
+
+  .slide-content{
+    margin: 0 40px;
+  }
+  
+
+  #card{
+    border-radius: 25px;
+    background-color: #ffff;
+  
+  }
+
+  .image-content{
+    margin: 50px;
+   
+  }
+
+  .image-content,
+  .card-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px 4px 10px 4px;
+    background-color: wheat;
+  }
+
+  .image-content2 img{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    background-color: white !important;
+  }
+
+
+
+  #row-noticiasEventos{
+
+    min-height: 100vh; 
+    display: flex;
+    align-items: center;
+   justify-content: center;
+    background-color: #efefef;
+    padding: 77px;
+
+  }
+
+  #row-noticiasEventos p{
+
+   font-size: 17px;
+    color: black;
+  }
+
+
+  .contenedor2{
+    width: 500px;
+  }
+
+
+  .name{
+    font-size: 25px;
+    font-weight: 500px;
+  }
+
+  .description{
+    font-size: 14px;
+    text-align: center;
+  }
+
+
+  .button{
+    border: none;
+    font-size: 16px;
+    color: #fff;
+    padding: 8px 16px;
+    background-color: orange;
+    border-radius: 6px;
+    margin: 14px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+
+
+  .button:hover{
+    background: rgb(235, 200, 134);
+  }
+
+  .titulo-noticia{
+    color: rgb(56, 56, 56) !important;
+    text-align: center;
+    font-family: Poppins, sans-serif;
+  }
+
+  .row-alianza{
+    background-color: white;
+    
+  }
+
+
+  .texto-footer{
+    color: rgb(56, 56, 56) !important;
+    text-align: center;
+    font-size: 20px;
+
+  }
+
+  #row-footer{
+    background: url(assets/footer.png);
+    color: rgb(56, 56, 56);
+    padding-top: 50px;
+   
+    
+
+  }
+
+  #row-footer h2{
+   
+    color: rgb(56, 56, 56) !important;
+    font-family: Poppins, sans-serif;
+    padding-top: 73px;
+    font-size: 20px;
+    
+
+  }
+
+
+  #row-footer img{
+   
+    margin-top: 60px;
+    margin-left: 70px;
+    width: 280px;
+    height: 120px;
+  }
+
+  #derechosReservados{
+   text-align: center;
+   margin-top: 50px;
+  }
+
+  #img-container img{
+    width: 60px;
+    height: 60px;
+    margin-top: 0px;
+    margin-left: 10px;
+    
+
+  }
+
+ #div-contacto{
+  padding-left: 115px;
+ }
+
+
+ .redes{
+  padding-left: 133px;
+ }
+
+
+ #navbar-div{
+  font-family: Poppins, sans-serif;
+  font-size: 18px;
+  color: rgb(56, 56, 56);
+ }
+
+ .carousel-item img{
+  margin: 10px;
+  margin-bottom:100px ;
+  margin-top: 100px;
+  padding-left: 50px;
+ }
+
+
+  .in-flex{
+    flex:1;
+  }
+
+  .in-flex:first-child{
+    flex:1;
+  }
+
+
+  .in-flex h1{
+    padding: 25;
+  }

@@ -10,7 +10,7 @@
 }
 
 header{
-    background-image: url('/assets/foto-header.jpg');
+    background-image: url('./assets/foto-header.jpg');
     background-size: cover;
     height: 600px;
 }
@@ -69,7 +69,7 @@ header{
   }
 
   #row-nosotros{
-    background-image: url('/assets/foto-sobre-nosotros.png');
+    background-image: url('./assets/foto-sobre-nosotros.png');
     padding: 60px,30px;
     display: flex;
     flex-wrap: wrap;
@@ -281,7 +281,7 @@ header{
   }
 
   #row-footer{
-    background: url(assets/footer.png);
+    background: url(./assets/footer.png);
     color: rgb(56, 56, 56);
     padding-top: 50px;
    

@@ -77,7 +77,7 @@
                         <a class="nav-link active" href="#row-misionVision">Comunicaciones</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" href="#row-footer">Contacto</a>
+                        <a class="nav-link active" href="#row-footers">Contacto</a>
                     </li>
                 </ul>
 
@@ -93,7 +93,8 @@
             </div>
 
             <div class="contenedor ">
-            <button class="btn"><b>CONTACTANOS</b> </button>
+                <a href="#row-footers"><button class="btn"><b>CONTACTANOS</b> </button></a>
+            
             </div>
 
         </div>
@@ -385,7 +386,7 @@
 
         
     </main>
-        <footer>
+        <!-- <footer class="pie-pagina">
             <div class="row py-5" id="row-footer">
 
 
@@ -393,15 +394,15 @@
                
         
 
-                <div class="container">
-                    <div class="row">
-                      <div class="col-4" >
+                <div class="container" id="grupo-1">
+                    <div class="row" >
+                      <div class="col-4" id="box" >
                      
                         <img src="assets/logo-menu.png" alt="" >
                        
                       </div>
                       <div class="col-4" id="img-container">
-                        <div class="redes">
+                        <div class="redes" id="box">
                             <h2> <b>Siguenos en nuestras redes</b> </h2>
                         <img src="/assets/facebook.PNG" alt="">
                         <img src="/assets/instagram.png" alt="">
@@ -410,13 +411,16 @@
                         
                         
                       </div>
-                      <div class="col-4" id="div-contacto">
-                        <h2><b>Contacto:</b> <br><b>contactohoyckaenergia.cl</b></h2>
+                      <div id="box">
+                        <div class="col-4" id="div-contacto">
+                            <h2><b>Contacto:</b> <br><b>contactohoyckaenergia.cl</b></h2>
+                          </div>
                       </div>
+                     
                     </div>
                   </div>
 
-                  <div class="container">
+                  <div class="container" id ="grupo-2">
                     <div class="row" id="derechosReservados">
                       <div class="col-12">
                         <h2> <b> ©HOYCKA ENERGIA, 2022. Todos los derechos reservados.</b><br>             <b>antofagasta</b></h2>
@@ -428,7 +432,45 @@
                 
         
                 </div>
+        </footer> -->
+
+        <footer class ="pie-pagina" id="row-footers">
+            <div class="grupo-1">
+                <div class="box">
+                    <figure>
+                        <img src="assets/logo-menu.png" alt="" >
+                    </figure>
+
+                </div>
+                <div class="box">
+                    <!-- <h2>SOBRE NOSOTROS</h2>
+                    <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis earum eius dolorem quaerat! Exercitationem quo doloremque atque, rem officiis ab sed necessitatibus tempora veritatis sapiente animi doloribus maxime consequuntur facilis?</P> -->
+
+                </div>
+                <div class="box">
+                    <h2> <b>Siguenos en nuestras redes</b> </h2>
+                    <div class="red-social">
+                        <a href=""> <img src="/assets/facebook.PNG" alt=""></a>
+                        <a href=""><img src="/assets/instagram.png" alt=""></a>
+                        <a href=""><img src="/assets/twiter.PNG" alt=""></a>
+                        
+                    </div>
+                        
+
+                </div>
+                
+
+            </div>
+            <div class="grupo-2">
+                <small><b> ©HOYCKA ENERGIA, 2022. Todos los derechos reservados.</b> <b>antofagasta</b></small> 
+            </div>
+
         </footer>
+
+
+
+
+
 
        
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
